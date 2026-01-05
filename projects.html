@@ -1,0 +1,34 @@
+---
+layout: default
+title: Coding Projects
+---
+
+<section class="page-header">
+  <div class="container">
+    <h1 class="page-title">Coding Projects</h1>
+    <p class="page-subtitle">Projects from my GitHub repositories</p>
+  </div>
+</section>
+
+<section class="projects-content">
+  <div class="container">
+    <div class="projects-controls">
+      <input type="text" id="project-search" class="search-input" placeholder="Search projects...">
+      <select id="language-filter" class="filter-select">
+        <option value="">All Languages</option>
+      </select>
+    </div>
+    
+    <div id="loading" class="loading-state">
+      <p>Loading projects...</p>
+    </div>
+    
+    <div id="error" class="error-state" style="display: none;">
+      <p>Unable to load projects. Please try again later.</p>
+    </div>
+    
+    <div id="projects-grid" class="projects-grid"></div>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/github-projects.js' | relative_url }}"></script>

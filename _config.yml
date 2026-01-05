@@ -1,5 +1,27 @@
 title: Emrie Loh
-# logo: /
-# description: text below image
-theme: jekyll-theme-minimal
-# different themes here https://pages.github.com/themes/
+description: Personal portfolio website featuring coding projects and teaching resources
+author: Emrie Loh
+github_username: ELOH53
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Personal
+    url: /personal.html
+  - title: Projects
+    url: /projects.html
+  - title: Teaching
+    url: /teaching.html
+
+# Build settings
+# Using custom layout, so no theme needed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
