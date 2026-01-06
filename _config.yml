@@ -7,8 +7,8 @@ github_username: ELOH53
 navigation:
   - title: Home
     url: /
-  - title: Personal
-    url: /personal.html
+  - title: CV
+    url: /cv.html
   - title: Projects
     url: /projects.html
   - title: Teaching

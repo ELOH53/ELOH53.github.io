@@ -36,9 +36,6 @@
       
       filteredProjects = [...allProjects];
       
-      // Populate language filter
-      populateLanguageFilter();
-      
       // Display projects
       displayProjects(filteredProjects);
       
@@ -176,21 +173,5 @@
   document.addEventListener('DOMContentLoaded', function() {
     // Fetch projects
     fetchProjects();
-    
-    // Setup search
-    const searchInput = document.getElementById('project-search');
-    if (searchInput) {
-      searchInput.addEventListener('input', function(e) {
-        filterBySearch(e.target.value);
-      });
-    }
-    
-    // Setup language filter
-    const languageFilter = document.getElementById('language-filter');
-    if (languageFilter) {
-      languageFilter.addEventListener('change', function(e) {
-        filterByLanguage(e.target.value);
-      });
-    }
   });
 })();
