@@ -17,9 +17,31 @@ title: CV
         <h3 class="subsection-title">Resume</h3>
         <p class="resume-description">View or download my resume:</p>
         <div class="resume-actions">
-          <a href="#" class="btn btn-primary" id="resume-link">View Resume</a>
-          <p class="resume-note">Note: Please upload your resume file to the repository or update the link above.</p>
+          <a href="/path/to/resume.pdf" class="btn btn-primary pdf-download-btn" download>
+            📥 Download Resume
+          </a>
         </div>
+        
+        <!-- PDF Viewer -->
+        <div class="pdf-viewer-container">
+          <div class="pdf-viewer-wrapper">
+            <iframe 
+              src="/path/to/resume.pdf#toolbar=0&navpanes=0&scrollbar=0" 
+              type="application/pdf"
+              title="Resume PDF">
+              <p>Your browser does not support PDFs. <a href="/path/to/resume.pdf" download>Download the resume</a> instead.</p>
+            </iframe>
+          </div>
+          <div class="pdf-viewer-actions">
+            <a href="/path/to/resume.pdf" class="pdf-download-btn" download>
+              📥 Download PDF
+            </a>
+            <a href="/path/to/resume.pdf" class="pdf-download-btn" target="_blank" rel="noopener noreferrer">
+              🔗 Open in New Tab
+            </a>
+          </div>
+        </div>
+        <p class="resume-note">Note: Please upload your resume file to the repository and update the PDF path above.</p>
       </div>
     </div>
   </div>
