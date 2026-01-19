@@ -1,5 +1,5 @@
 title: Emrie Loh
-description: Personal portfolio website featuring coding projects and teaching resources
+description: Personal website featuring coding projects, teaching resources, research materials,and professional information.
 author: Emrie Loh
 github_username: ELOH53
 
@@ -7,12 +7,15 @@ github_username: ELOH53
 navigation:
   - title: Home
     url: /
-  - title: CV
-    url: /cv.html
-  - title: Projects
-    url: /projects.html
   - title: Teaching
     url: /teaching.html
+  - title: Research
+    url: /research.html
+  - title: Projects
+    url: /projects.html
+  - title: CV
+    url: /cv.html
+
 
 # Build settings
 # Using custom layout, so no theme needed
